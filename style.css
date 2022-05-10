@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Montserrat&display=swap');
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding-top: 80px;
+  background-color: #e9d8ff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+nav {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #180c2a;
+  z-index: 10;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 20px;
+  list-style-type: none;
+}
+
+nav ul li a {
+  font-size: 1rem;
+  color: #e9d8ff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+#main {
+  text-align: center;
+  min-width: 400px;
+}
+
+#main h1 {
+  font-family: 'Fredoka One', cursive;
+  font-size: 8vw;
+  color: #000;
+  margin: 0;
+  padding: 0;
+  line-height: 1em;
+}
+
+#main p {
+  font-size: 3vw;
+  margin: 0;
+}
+
+#img-div {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+#image {
+  max-width: 100%;
+  display: block;
+  margin: auto;
+}
+
+#img-caption {
+  font-size: 0.8rem;
+  margin-top: 10px;
+}
+
+#tribute-info {
+  width: 800px;
+  margin: 50px auto;
+}
+
+#tribute-info h2 {
+  text-align: center;
+}
+
+#tribute-info ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+}
+
+#tribute-info ul li {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  margin: 5px;
+}
+
+.profile-img {
+  width: 100%;
+  height: 100%;
+}
+
+.nama-tokoh {
+  color: white;
+  background-color: black;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.nama-tokoh:hover {
+  opacity: 0.8;
+}
+
+#buah-iblis {
+  width: 800px;
+  margin: 50px auto;
+}
+
+#buah-iblis h2 {
+  text-align: center;
+}
+
+#buah-iblis ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+}
+
+#buah-iblis ul li {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  margin: 5px;
+}
+
+#follow {
+  text-align: center;
+  background-color: black;
+  padding: 5px 0;
+}
+
+#follow h2 {
+  color: white;
+}
+
+#follow ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+#follow li {
+  font-size: 2em;
+  margin: 0 10px;
+}
+
+#follow li a {
+  color: white;
+}
